@@ -1,10 +1,9 @@
 import { expect } from 'chai';
-import { ethers, waffle } from 'hardhat';
+import { ethers } from 'hardhat';
 import { deployContract } from 'ethereum-waffle';
-import { Contract, BigNumber, constants, Signer } from 'ethers';
+import { Signer } from 'ethers';
 import GreeterArtifact from '../artifacts/contracts/Greeter.vy/Greeter.json'
 import { Greeter } from '../src/types/Greeter'
-import {Address} from 'cluster'
 
 describe("Greeter", function () {
   let deployer: Signer
