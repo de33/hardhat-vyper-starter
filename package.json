@@ -1,5 +1,5 @@
 {
-  "name": "ERC20Permit",
+  "name": "Greeter",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-vyper": "^3.0.0",
